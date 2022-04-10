@@ -40,9 +40,9 @@ submitBtn.on('click', function () {
 
 $('#readStatus').on('change', function () {
   if ($(this).is(':checked')) {
-    $(this).attr('value', 'true');
+    $(this).attr('value', 'Read');
   } else {
-    $(this).attr('value', 'false');
+    $(this).attr('value', 'Unread');
   }
 });
 
