@@ -106,7 +106,8 @@ small {
 @media (max-width: 1040px) {
   .container {
     width: 60%;
-    margin: auto;
+    margin-top: 200px;
+    margin-left: 150px;
   }
   table,
   th,
@@ -124,7 +125,8 @@ small {
 @media (max-width: 800px) {
   .container {
     width: 60%;
-    margin: auto;
+    margin-top: 100px;
+    margin-left: 50px;
   }
   table,
   th,
@@ -142,7 +144,8 @@ small {
 @media (max-width: 400px) {
   .container {
     width: 60%;
-    margin: auto;
+    margin-top: 100px;
+    margin-left: 0px;
   }
   table,
   th,
