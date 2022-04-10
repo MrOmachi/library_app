@@ -6,6 +6,8 @@
 }
 
 body {
+  width: 90%;
+  margin: auto;
   background: linear-gradient(135deg, #6f6df4, #4c46f5);
 }
 span {
@@ -104,8 +106,7 @@ small {
 @media (max-width: 1040px) {
   .container {
     width: 60%;
-    margin-top: 200px;
-    margin-left: 150px;
+    margin: auto;
   }
   table,
   th,
@@ -123,8 +124,7 @@ small {
 @media (max-width: 800px) {
   .container {
     width: 60%;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin: auto;
   }
   table,
   th,
@@ -142,8 +142,7 @@ small {
 @media (max-width: 400px) {
   .container {
     width: 60%;
-    margin-top: 100px;
-    margin-left: 0px;
+    margin: auto;
   }
   table,
   th,
