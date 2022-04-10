@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>LIBRARY BOOKS</h1>
+      <button type="button" id="addBooksBtn">ADD BOOKS TO THIS LIBRARY</button
+      ><br /><br />
+
+      <form action="" id="toggle" class="hideForm">
+        <div class="row">
+          <div class="col">
+            <label for="bookTitle">Book Title</label>
+            <input type="text" name="book_title" id="bookTitle" />
+            <small id="bookTitleError"></small>
+          </div>
+          <div class="col">
+            <label for="bookAuthor">Book Author</label>
+            <input type="text" name="book_autjor" id="bookAuthor" />
+            <small id="bookAuthorError"></small>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <label for="book_pages">Book Pages</label>
+            <input type="number" name="bookPages" id="bookPages" />
+            <small id="bookPagesError"></small>
+          </div>
+
+          <div class="col">
+            <label for="read_status">Have you read this book?</label>
+            <br />
+            <label class="switch">
+              <input type="checkbox" id="readStatus" />
+              <span class="slider round"></span>
+            </label>
+
+            <small id="readStatusError"></small>
+          </div>
+        </div>
+
+        <button type="button" id="submitBtn">ADD BOOK</button><br /><br />
+
+        <table>
+          <thead>
+            <tr>
+              <th>S/N</th>
+              <th>Title</th>
+              <th>Author</th>
+              <th>Pages</th>
+              <th>Read Status</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </form>
+    </div>
+
+    <script src="./jquery.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
